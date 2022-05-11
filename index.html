@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <title>Fighting Game - G-Berry Tech</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web Gaming" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="gunapathi123@gmail.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.min.css" />
+  </head>
+  <body>
+    <main>
+      <div class="topbar">
+        <blockquote>
+          This game is for learning purpose. So, it was updated only for Desktop
+          Mode. Working on further improvements.
+          <hr />
+          <a href="https://github.com/Gunapathi/fighting-game" target="_blank">
+            Click here to download package from github.
+          </a>
+          <br />
+          <a href="https://joyful-rolypoly-aa7780.netlify.app/" target="_blank">
+            Click here to View demo.
+          </a>
+        </blockquote>
+      </div>
+      <div class="topContainerWrap">
+        <div class="topContainer">
+          <div class="topContainer_inner">
+            <div
+              class="health_wrap player_wrap"
+              style="transform: rotate(180deg)"
+            >
+              <div class="player_health"></div>
+              <div id="playerHealth" class="health_bar"></div>
+            </div>
+
+            <div id="timer">10</div>
+
+            <div class="health_wrap enemy_wrap">
+              <div class="enemy_health"></div>
+              <div id="enemyHealth" class="health_bar"></div>
+            </div>
+          </div>
+
+          <div id="result"></div>
+
+          <canvas></canvas>
+        </div>
+      </div>
+      <div class="bottomContainer">
+        <blockquote>
+          <a href="https://github.com/Gunapathi/fighting-game" target="_blank">
+            Click here to download package from github.
+          </a>
+          <br />
+          <a href="https://joyful-rolypoly-aa7780.netlify.app/" target="_blank">
+            Click here to View demo.
+          </a>
+          <hr />
+          <em><strong>Controls For Player 1:</strong> </em>Left - a, Right - d,
+          Jump - w, Attack - space
+        </blockquote>
+        <blockquote>
+          <em><strong>Controls For Player 2:</strong> </em>Left - LeftArrow,
+          Right - RightArrow, Jump - UpArrow, Attack - DownArrow
+        </blockquote>
+      </div>
+    </main>
+
+    <!-- gsap cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8526368WQ6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-8526368WQ6");
+    </script>
+
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6356013918388154"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/utils.min.js"></script>
+    <script src="./js/classes.min.js"></script>
+    <script src="index.min.js"></script>
+  </body>
+</html>
