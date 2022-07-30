@@ -7,4 +7,4 @@ Languages Used:
 HTML, CSS, JavaScript
 
 View Demo Here:
-https://joyful-rolypoly-aa7780.netlify.app/
+https://swardigo.netlify.app/
